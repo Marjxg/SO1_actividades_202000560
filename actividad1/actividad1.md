@@ -14,4 +14,6 @@ MODO USUARIO VS MODO KERNEL
 
 Dependiendo del tipo de código que esté corriendo en el procesador, este puede cambiar entre modos. En términos generales las aplicaciones se ejecutan en modo usuario y los componentes principales del sistema operativo en modo Kernel, mientras que en el caso de los controladores algunos pueden ejecutarse en modo usuario y otros en modo Kernel.
 
-Modo usuario: 
+En el modo usuario las aplicaciones carecen de acceso directo a recursos de hardware. Al iniciarse una aplicación en modo usuario se crea un proceso, el cual crea un espacio para direcciones virtuales privadas, al ser privadas no pueden alterar otras aplicaciones y si existe un fallo se limita a la misma aplicación, no afecta otras aplicaciones ni al sistema operativo.
+
+En el modo Kernel hay un aumento de privilegios, lo que trae un riesgo consigo. Todo lo que se inicie en modo Kernel comparte el mismo espacio de direcciones virtuales, al no estar separadas pueden afectarse unas a otras, por lo que si existe una falla el sistema operativo falla.
