@@ -3,6 +3,7 @@ Marjorie Gissell Reyes Franco - 202000560
 KERNEL
 
 TIPOS DE KERNEL
+
 El Kernel es el software encargado de relacionar el hardware con las aplicaciones del ordenador, es decir, las órdenes del Kernel son las únicas que interactúan con los dispositivos físicos tales como la memoria RAM, el disco duro o el procesador. Este es también conocido como núcleo, dado a que contiene las funciones del sistema operativo utilizadas con mayor frecuencia. En la actualidad existen cuatro tipos de Kernel:
 1. Monokernel o Kernel monolítico
 2. Exokernel
