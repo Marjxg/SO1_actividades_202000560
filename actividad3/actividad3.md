@@ -1,4 +1,4 @@
-202000560 <br>
+nn202000560 <br>
 Marjorie Gissell Reyes Franco
 
 # Parte1: Gestión de usuarios
@@ -236,3 +236,8 @@ ls -l archivo2.txt
 ![imagen](https://github.com/Marjxg/SO1_actividades_202000560/assets/78390305/296aab04-ca02-4575-ab8f-813a1393398c)
 
 
+# Reflexión
+### ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
+Al ser un sistema multiusuario, estos son de gran importancia para evitar que otros usuarios y grupos roben o malversen información de carpetas, archivos e incluso de los mismos usuarios. Además permiten tener una mejor organización y que los usuarios no interfieran entre sí.
+### ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
+Además del comando chmod para gestionar permisos de usuario y del comando chwon para gestionar permisos de archivos y directorios, existe el comando **chgrp** para cambiar grupos de archivos y directorio.
