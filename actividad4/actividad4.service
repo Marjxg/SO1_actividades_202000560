@@ -1,0 +1,8 @@
+[Unit]
+Description=Print Hello and Date
+[Service]
+ExecStart=/home/marjorie/actividad4.sh
+Type=oneshot
+RemainAfterExit=true
+[Install]
+WantedBy=multi-user.target
